@@ -1,0 +1,23 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 288 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.3.176:3000/
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+3  |  @tailwind utilities;
+4  |  
+5  |  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6  |  @import url('https://fonts.googleapis.com/css2?family=Tan+Perfait&display=swap');
+7  |  
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+4  |  
+5  |  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+6  |  @import url('https://fonts.googleapis.com/css2?family=Tan+Perfait&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7  |  
+8  |  @layer base {
